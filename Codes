@@ -1,0 +1,2 @@
+# plot for conditional statements
+plot(MaxProfit ~ Date, data = allstocks, col = ifelse(source == "BHARTIARTL", 'blue', 'red'))
